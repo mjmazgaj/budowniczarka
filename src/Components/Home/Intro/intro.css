@@ -2,10 +2,6 @@
   display: flex;
   gap: 2rem;
   min-height: 40rem;
-  font-family: Antonio;
-  font-weight: 300;
-  font-size: 2rem;
-  color: white;
 }
 
 .intro-description_container {
@@ -17,7 +13,7 @@
 }
 
 .intro-description_title_container {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .intro-description_title {
@@ -29,7 +25,7 @@
 }
 
 .intro-description_details_container {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .intro-description_details_container p {
