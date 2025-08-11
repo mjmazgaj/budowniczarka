@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/budowniczarka/static/css/main.f855e6bc.css",
-    "main.js": "/budowniczarka/static/js/main.862ca907.js",
+    "main.css": "/budowniczarka/static/css/main.0bb09a00.css",
+    "main.js": "/budowniczarka/static/js/main.17f4aca0.js",
     "static/js/453.984d3ee9.chunk.js": "/budowniczarka/static/js/453.984d3ee9.chunk.js",
-    "static/media/logo.svg": "/budowniczarka/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/budowniczarka/index.html",
-    "main.f855e6bc.css.map": "/budowniczarka/static/css/main.f855e6bc.css.map",
-    "main.862ca907.js.map": "/budowniczarka/static/js/main.862ca907.js.map",
+    "main.0bb09a00.css.map": "/budowniczarka/static/css/main.0bb09a00.css.map",
+    "main.17f4aca0.js.map": "/budowniczarka/static/js/main.17f4aca0.js.map",
     "453.984d3ee9.chunk.js.map": "/budowniczarka/static/js/453.984d3ee9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.862ca907.js"
+    "static/css/main.0bb09a00.css",
+    "static/js/main.17f4aca0.js"
   ]
 }
