@@ -1,0 +1,42 @@
+#intro {
+  display: flex;
+  gap: 2rem;
+  min-height: 40rem;
+  font-family: Antonio;
+  font-weight: 300;
+  font-size: 2rem;
+  color: white;
+}
+
+.intro-description_container {
+  background-color: var(--color_background);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-description_title_container {
+  padding: 1rem;
+}
+
+.intro-description_title {
+  margin: 0;
+  color: var(--color_primary);
+  font-family: Antonio;
+  font-weight: 700;
+  font-size: 7rem;
+}
+
+.intro-description_details_container {
+  padding: 1rem;
+}
+
+.intro-description_details_container p {
+  margin: 0;
+}
+
+.intro-image_container {
+  background-color: var(--color_secondary);
+  flex: 1;
+}
