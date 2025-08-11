@@ -1,0 +1,31 @@
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-title_text {
+  color: var(--color_primary);
+  font-weight: 600;
+}
+
+.portfolio_container {
+  width: 30%;
+}
+
+.portfolio_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
+  background-color: var(--color_primary);
+  margin: 2rem auto;
+  border: 0.5rem solid var(--color_secondary);
+  padding: 1rem;
+}
+
+.portfolio_button p {
+  margin: 0;
+  font-weight: 400;
+  color: var(--color_background);
+}
