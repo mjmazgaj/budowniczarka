@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className="portfolio_button">
           <p>SZCZEGÓŁOWE SPIS TREŚCI</p>
           <p>PRAWO BUDOWLANE</p>
-          <hr/>
+          <hr />
           <div className="portfolio_button-download">
             <p>POBIERZ</p>
             <IoMdDownload />

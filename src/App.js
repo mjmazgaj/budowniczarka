@@ -8,10 +8,12 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      <Intro />
-      <Info />
-      <Portfolio />
-      <Contact />
+      <div className="body">
+        <Intro />
+        <Info />
+        <Portfolio />
+        <Contact />
+      </div>
       <Footer />
     </>
   );

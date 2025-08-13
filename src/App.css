@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
 
 body {
+  position: relative;
   background-color: var(--color_background);
-  margin: 0 2rem;
   font-family: Antonio;
   font-weight: 300;
   font-size: 2rem;
   color: white;
+}
+
+#root .body {
+  margin: 0 2rem;
 }
 
 :root {
