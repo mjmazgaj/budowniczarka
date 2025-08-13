@@ -24,8 +24,35 @@
   padding: 1rem;
 }
 
-.portfolio_button p {
+.portfolio_button:hover {
+  cursor: pointer;
+  background-color: var(--color_background);
+  border: 0.5rem solid var(--color_primary);
+}
+
+.portfolio_button:hover p,
+.portfolio_button:hover svg {
+  color: var(--color_primary);
+}
+
+.portfolio_button:hover hr {
+  border: 2px solid var(--color_primary);
+  width: 100%;
+}
+
+.portfolio_button p,
+.portfolio_button svg {
   margin: 0;
   font-weight: 400;
   color: var(--color_background);
+}
+
+.portfolio_button-download {
+  display: flex;
+  gap: 1rem;
+}
+
+.portfolio_button hr {
+  border: 2px solid var(--color_background);
+  width: 100%;
 }

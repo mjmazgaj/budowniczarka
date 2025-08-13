@@ -1,4 +1,5 @@
 import "./portfolio.css";
+import { IoMdDownload } from "react-icons/io";
 
 const Portfolio = () => {
   return (
@@ -8,14 +9,11 @@ const Portfolio = () => {
         <div className="portfolio_button">
           <p>SZCZEGÓŁOWE SPIS TREŚCI</p>
           <p>PRAWO BUDOWLANE</p>
-        </div>
-        <div className="portfolio_button">
-          <p>ŚWIADECTWO CHARAKTERYSTYKI</p>
-          <p>ENERGETYCZNEJ</p>
-        </div>
-        <div className="portfolio_button">
-          <p>WYKOŃCZENIE POD KLUCZ - </p>
-          <p>NADZÓR PRAC</p>
+          <hr/>
+          <div className="portfolio_button-download">
+            <p>POBIERZ</p>
+            <IoMdDownload />
+          </div>
         </div>
       </div>
     </section>

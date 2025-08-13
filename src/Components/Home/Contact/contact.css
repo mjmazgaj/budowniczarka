@@ -28,3 +28,9 @@
 .contact-socialmedia_item p {
   font-size: 1.5rem;
 }
+
+.contact-socialmedia_item:hover{
+  cursor: pointer;
+  background-color: var(--color_primary);
+  color: var(--color_background);
+}
