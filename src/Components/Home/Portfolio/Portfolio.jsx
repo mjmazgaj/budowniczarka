@@ -7,13 +7,15 @@ const Portfolio = () => {
       <h2 className="portfolio-title_text">PRODUKTY</h2>
       <div className="portfolio_container">
         <div className="portfolio_button">
-          <p>SZCZEGÓŁOWE SPIS TREŚCI</p>
-          <p>PRAWO BUDOWLANE</p>
-          <hr />
-          <div className="portfolio_button-download">
-            <p>POBIERZ</p>
-            <IoMdDownload />
-          </div>
+          <a href="/testFile.txt" download>
+            <p>SZCZEGÓŁOWE SPIS TREŚCI</p>
+            <p>PRAWO BUDOWLANE</p>
+            <hr />
+            <div className="portfolio_button-download">
+              <p>POBIERZ</p>
+              <IoMdDownload />
+            </div>
+          </a>
         </div>
       </div>
     </section>
