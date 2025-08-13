@@ -1,4 +1,5 @@
 import "./intro.css";
+import image from "../../../assets/intro_image.png"
 
 const Intro = () => {
   return (
@@ -14,7 +15,9 @@ const Intro = () => {
           <p>Nadzór prac budowlanych</p>
         </div>
       </div>
-      <div className="intro-image_container"></div>
+      <div className="intro-image_container">
+        <img src={image} alt="" />
+      </div>
     </section>
   );
 };

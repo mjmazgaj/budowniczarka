@@ -35,4 +35,12 @@
 .intro-image_container {
   background-color: var(--color_secondary);
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intro-image_container img {
+  aspect-ratio: inherit;
+  width: 40rem;
+  height: fit-content;
 }

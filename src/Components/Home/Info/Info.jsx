@@ -1,9 +1,12 @@
 import "./info.css";
+import image from "../../../assets/papers.png"
 
 const Info = () => {
   return (
     <section id="info">
-      <div className="info-image_container"></div>
+      <div className="info-image_container">
+        <img src={image} alt="Papers" />
+      </div>
       <div className="info-description_container">
         <div className="info-description_title_container">
           <h3 className="info-description_title">KIM JESTEM?</h3>
